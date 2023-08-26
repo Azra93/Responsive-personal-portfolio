@@ -2,9 +2,23 @@ header
 Main
     HOME
     ABOUT
-    SKILLS AND EXPERIENCE
+    SKILLS 
+    EDUCATION & EXPERIENCE
     PORTFOLIO
     CONTACT US
 
 
 footer
+
+
+ABOUT
+
+left-> image 
+
+right-> text
+
+below image: -> EXPERIENCE 
+
+SKILLS
+
+card -->
