@@ -1,5 +1,4 @@
-// ================= DARK THEME ================
-
+//===================================== DARK THEME =========================
 const themeButton = document.getElementById('theme-button')
 const darkTheme = 'dark-theme'
 const iconTheme = 'uil-sun'
@@ -29,8 +28,7 @@ themeButton.addEventListener('click', () => {
 })
 console.log("THEME SETTING IS WORKING!")
 
-
-/* ===================================== MENU SHOW Y HIDDEN ========================= */
+//===================================== MENU SHOW Y HIDDEN =========================
 const navMenu = document.getElementById('nav-menu')
 const navToggle = document.getElementById('nav-toggle')
 const navClose = document.getElementById('nav-close')
@@ -51,8 +49,9 @@ if(navClose){
     })
 } 
 
-console.log("MENU Y SETTING WORKING!")
 
+
+console.log("MENU Y SETTING WORKING!")
 //===================================== REMOVE MENU PRORFILE =========================
 const navLink = document.querySelectorAll('.nav__link')
 
@@ -65,17 +64,17 @@ function linkAction(){
 navLink.forEach(n => n.addEventListener('click', linkAction))
 console.log("Remove menu profile is working!")
 
+
 //===================================== Typewriter Effect =========================
 
 
 new Typewriter('#typewriter', {
-    strings: ['Azra Ramic', 'Web-developer'],
-    autoStart: true,
-    loop: true,
-    cursor: "|"
-  });
-  console.log("Typewriter effect is working!")
-
+  strings: ['Azra Ramic', ' PHP Web-developer'],
+  autoStart: true,
+  loop: true,
+  cursor: "|"
+});
+console.log("Typewriter effect is working!")
 
 //===================================== Portfolio Swiper =========================
 
@@ -98,6 +97,7 @@ var swiper = new Swiper(".blog-slider", {
     keyboard: true,
   });
 console.log("Portfolio Swiper is working!")
+
 
 //===================================== SCROLL UP =========================
 function scrollUp(){
@@ -136,3 +136,5 @@ function scrollActive() {
     console.log("Section highlight working!")
 }
 window.addEventListener('scroll', scrollActive)
+
+
