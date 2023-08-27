@@ -1334,7 +1334,7 @@ img{
 
     .home__data{
       /* grid-column: initial; */
-      margin-left: 2rem;
+      margin-left: 4rem;
   
     }
 
@@ -1342,16 +1342,18 @@ img{
       margin-top: var(--mb-0-25);
     }
 
-    /* .home__scroll-mouse{
+    .home__scroll-mouse{
       margin-top: var(--mb-0-25);
-    } */
+    }
 
     .about{
-      margin-top: 6rem;
+      margin-top: 12rem;
     }
     .qualification__data{
       gap: 0.5rem;
     }
+
+    
 
     .contact_mail{
       margin-left: var(--mb-1-5);
